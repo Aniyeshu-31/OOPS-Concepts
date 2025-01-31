@@ -26,5 +26,12 @@ public class Human {
         Human obj = new Human();
 
         System.out.println(Human.a+" "+Human.b);;
+
+        Integer obj2 = 20;  // AutoBoxing -> (Wrapper Class to Primitve)
+        int num = obj2;
+        
+        int num2 = 292;
+        Integer n = num2;   // Unboxing -> (Primitve to Wrapper Class)
+        
     }
 }
