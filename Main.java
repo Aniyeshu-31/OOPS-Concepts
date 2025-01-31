@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         //  int[] nums = new int[5];
 
-        //  String[] names = new String[5];
+         String[] names = new String[5];
          Scanner sc = new Scanner(System.in);
          Data[] studentsdata = new Data[3];
         //  System.out.println(Arrays.toString(studentsdata)); // Prints Null
@@ -32,5 +32,9 @@ public class Main {
          for(int i = 0;i < 3;i++) {
             System.out.println(studentsdata[i].name);
          }
+
+         Singleton obj = new Singleton(100);    
+         int num = obj.getters();
+         System.out.println(num);
     }
 }
